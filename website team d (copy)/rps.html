@@ -1,0 +1,26 @@
+<html>
+<button type="submit" id="1" onClick="play();move();">Rock</button>
+<button type="submit" id="2" onClick="play();move2();">Paper</button>
+<button type="submit" id="3" onClick="play();move3();">Scissors</button>
+<p id="game"></p>
+
+
+
+<script>
+function play() {
+   a = (Math.floor(Math.random() * 3));
+
+
+   if (a == 1) {
+     hand("rock");
+   } else if (a == 2) {
+     hand("paper");
+   } else {
+    hand("scissors")
+   }
+}
+function hand(hand, result) {
+    document.getElementById("game").innerHTML = 'The opponent played ' + hand;
+}
+</script>
+</html>

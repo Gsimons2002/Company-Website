@@ -1,0 +1,83 @@
+/* .tinted-image {
+  background-image: url('Logo.png');
+    background-blend-mode: screen;
+    width: 1500px;
+    height: 1500px;
+    position: top-right;
+    repeat: no-repeat;
+} */
+.Custom-image {
+  image: url('Logo.png');
+  repeat: no-repeat;
+  width: 10%;
+  height: 10%;
+  background-color: lightblue;
+  left: auto;
+  top: auto;
+}
+
+.Custom-image:hover{
+background-color: red;
+}
+
+
+p {
+  word-wrap: break-word;
+  font: sans-serif;
+  font-size: 110%;
+}
+
+h1 {
+  font: "Apple Chancery", cursive;
+  font-style: italic;
+  background-color: gold;
+}
+
+.header {
+  background: gold;
+  width: 100%;
+  height: 10%;
+  margin: 0px auto;
+  text-align: center;
+  padding: 5px;
+  font-size: 30px;
+}
+
+
+.topHeader {
+  background: gold;
+  width: 100%;
+  height: 10%;
+  margin: 0px auto;
+  text-align: top left;
+  padding: 1px;
+}
+
+body {
+  background-image: url(members.png)
+  background-blend-mode: screen;
+  background-color: #d1d1e0;
+  margin: 0px;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #0066ff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.button:hover {background-color: red}
+
+.button:active {
+  background-color: green;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
